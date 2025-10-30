@@ -6,6 +6,7 @@ import SimpleForm from './Component/SimpleForm/SimpleForm'
 import Controlledform from './Component/ControlledForm/Controlledform'
 import UncontrolledForm from './Component/UncontrolledFrom/UncontrolledForm'
 import HookForm from './Component/HookForm/HookForm'
+import ProductManagement from './Component/ProductManagement/ProductManagement'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       {/* <SimpleForm></SimpleForm> */}
       {/* <Controlledform/> */}
       {/* <UncontrolledForm/> */}
-      <HookForm/>
+      {/* <HookForm/> */}
+      <ProductManagement/>
     </>
   )
 }
